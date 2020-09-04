@@ -38,7 +38,8 @@ pigeon_list = {
   }
 }
 def nyc_pigeon_organizer(data)
-  binding.pry
+  data.each_with_object({}) do |(key, value), final_array|
+    binding.pry
 end
 
   # write your code here!
